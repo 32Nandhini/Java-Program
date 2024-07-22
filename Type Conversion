@@ -1,0 +1,8 @@
+import java.io.*;
+public class Hello{
+public static void main(String args[]){
+int b=10;//implicit type conversion
+n=20;
+System.out.println(n);
+}
+}
