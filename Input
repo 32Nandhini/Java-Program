@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Input {
+
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your name? ");
+        String name = scanner.nextLine();
+
+        System.out.println("Your Age");
+        int Age = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("Your mail-ID");
+        String mail = scanner.nextLine();
+
+        System.out.println(" Hello " + name);
+        System.out.println(" Age is " + Age);
+        System.out.println(" Mail-ID " + mail);
+
+
+    }
+}
