@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class EvenOdd{
+    public static void main(String[] args) {
+        int num1,num2,result;
+        System.out.println("Enter first number");
+        Scanner scan = new Scanner(System.in);
+        num1=scan.nextInt();
+        System.out.println("Enter Second number");
+        Scanner option = new Scanner(System.in);
+        num2=scan.nextInt();
+        scan.close();
+        result=num1+num2;
+        System.out.println("The value is "+result);
+
+    }
+}
